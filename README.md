@@ -1,9 +1,13 @@
 # Exploring Operations Research with R (exorr)
-Supporting repository for upcoming CRC Press text book Exploring Operations Research with R. The book is currently being written, and the publication date is targeted for early 2024. The book content has evolved from my introductory course [*CT5102 - Programming for Data Analytics*](https://github.com/JimDuggan/CT5102). It takes a broad view of R, starting with Base R (vectors, subsetting, functions, functionals, matrices, data frames and S3 objects), and then introducing the tidyverse. The final section explores application areas in operational research.
+Supporting repository for upcoming CRC Press text book **Exploring Operations Research with R**. 
+
+The book is currently being written, and the publication date is targeted for early 2024. The book content has evolved from my introductory course [*CT5102 - Programming for Data Analytics*](https://github.com/JimDuggan/CT5102). It takes a broad view of R, starting with Base R (vectors, subsetting, functions, functionals, matrices, data frames and S3 objects), and then introducing the tidyverse. 
+
+The final section explores application areas in operational research.
 
 
 
-## Book Overview
+## Book Idea
 The underpinning idea of the book is to show how the R Programming language can be a valuable tool – and way of thinking – that can be successfully applied to the field of operations research. This idea is centred on an idea of the future operations research professional as someone who can combine key understandings from an array of OR techniques (e.g. simulation, linear programming, data science and network science) with a core knowledge of what R can provide in terms of data representation, manipulation and analysis, in order to develop actionable insights for decision makers.
 
 The aim of the book is to provide a self-contained introduction to R (both Base R and the tidyverse), and show how this knowledge can be applicated to a range of operations research challenges in the domains of public health, infectious diseases and energy generation. Readers of the book would include master’s degree students and PhD students from quantitatively oriented programmes in operations research, and also the related field of data science.
