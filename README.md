@@ -26,15 +26,15 @@ Part 1 contains
 
 1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20chapter)
 
-2. Vectors
+2. [Vectors]()
 
-### 3. Subsetting vectors
+3. Subsetting vectors
 
-### 4. Functions, Functionals and the R Pipe
+4. Functions, Functionals and the R Pipe
 
-### 5. Matrices and Data Frames
+5. Matrices and Data Frames
 
-### 6. The S3 Object System in R
+6. The S3 Object System in R
 
 
 
