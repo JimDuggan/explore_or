@@ -1,31 +1,63 @@
-Lecture 1 (Atomic Vectors) - Summary
+Chapter 1 - Getting Started with R
 ================
 
-Here are some of the key points from the lecture. See also the sample
-code solutions in the code folder.
+Once you have installed R, and an IDE such as RStudio, it is useful to
+explore how you can create an manipulate data.
 
-- Atomic vectors have only one data type.
-
-``` r
-v1 <- 1:5
-str(v1)
-```
-
-    ##  int [1:5] 1 2 3 4 5
+The following code assigns the value 25 to the variable `x` and displays
+it. It then creates a new variable `y` that uses the value if `x`, and
+then displays this.
 
 ``` r
-v2 <- c(T,F)
-str(v2)
+# Assign 25 to  x
+x <- 25
+# Display x
+x
 ```
 
-    ##  logi [1:2] TRUE FALSE
-
-- When combining different data types in a vector, R will coerce to the
-  most flexible data type
+    ## [1] 25
 
 ``` r
-v3 <- c(v1, v2)
-str(v3)
+# Add 21 to x and store the result y
+y <- x + 25
+# Display y
+y
 ```
 
-    ##  int [1:7] 1 2 3 4 5 1 0
+    ## [1] 50
+
+We can create a new variable `v` which is known as an atomic vector.
+This means it can contain more than one value. The function `c()`
+creates a vector.
+
+``` r
+# Call the function c() 
+# Store the result in the variable v
+v <- c(10, 20, 30)
+# Display v
+v
+```
+
+    ## [1] 10 20 30
+
+We can now use other R functions to process the variable `v`, for
+example, the functions `sum()`, `mean()`, and `sqrt()`. The results are
+shown below.
+
+``` r
+sum(v)
+```
+
+    ## [1] 60
+
+``` r
+mean(v)
+```
+
+    ## [1] 20
+
+``` r
+sqrt(v)
+```
+
+    ## [1] 3.162278 4.472136 5.477226
