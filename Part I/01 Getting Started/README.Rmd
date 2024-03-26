@@ -1,6 +1,6 @@
 ---
 output: github_document
-title:  Chapter 1 -  Getting Started with R
+title:  Chapter 1 Examples -  Getting Started with R
 ---
 
 Once you have installed R, and an IDE such as RStudio, it is useful to explore how you can create an manipulate data.

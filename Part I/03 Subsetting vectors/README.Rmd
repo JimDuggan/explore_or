@@ -1,0 +1,4 @@
+---
+output: github_document
+title:  Chapter 3 -  Subsetting vectors
+---

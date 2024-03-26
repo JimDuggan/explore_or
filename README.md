@@ -24,9 +24,9 @@ The book contains three parts:
 ## Part I - Base R
 Part 1 contains 
 
-1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20chapter)
+1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started)
 
-2. [Vectors]()
+2. [Vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/02%20Vectors)
 
 3. Subsetting vectors
 
