@@ -2,3 +2,80 @@
 output: github_document
 title:  Chapter 4 Examples -  Functions, Functionals and the R Pipe
 ---
+
+### Functions
+The general form of a function in R is:
+
+`function (arguments) expression`
+
+where:
+
+* `arguments` provides the arguments (inputs) to a function, and are separated by commas,
+* `expression` is any legal R expression contained within the function body, and is usually enclosed in curly braces (when there is more than one expression),
+* the last evaluated expression is returned by the function, although the function `return()` can be also used to return values.
+
+Here is a function that returns only the even values in a vector.
+
+```{r}
+evens <- function(v){
+  v[v%%2==0]
+}
+
+x1 <- 1:7
+
+evens(x1)
+```
+
+A second function takes in a vector of random numbers, and remove any duplicates. To remove the duplicates, we will make use of the R function `duplicated()`, which returns a logical vector that contains `TRUE` if a value is duplicated. 
+
+```{r}
+my_unique <- function(x){
+  # Use duplicated() to create a logical vector
+  dup_logi <- duplicated(x)
+  # Invert the logical vector so that unique values are set to TRUE
+  unique_logi <- !dup_logi
+  # Subset x to store those values are unique
+  ans <- x[unique_logi]
+  # Evaluate the variable ans so that it is returned
+  ans
+}
+```
+
+We can now call the function:
+```{r}
+set.seed(100)
+v <- sample(1:6,10,replace = T)
+ans <- my_unique(v)
+ans
+
+```
+
+### Functionals
+
+Functionals can be used instead of loops to iterate over data and return a result. One of the most important functionals that can be used is `lapply(x, f)`, which:
+
+* Accepts as input a list  `x` and a function `f`, 
+* Returns as output a new list of exactly the same length as `x`, where each element in the new list is the result of applying the function `f` to the corresponding element of the input list `x`. 
+
+Here is an example of using `lapply()`, it calculates the minimum value of each list element. Note the looping action of `lapply()`, as it iterates over each list element.
+
+```{r}
+l1 <- list(a=1:4,b=10:11,c=20:25)
+res <- lapply(l1,min)
+res
+```
+### R’s native pipe operator
+
+The native pipe operator in R, represented by the symbol `|>`, allows you to chain a number of operations together, without having to assign intermediate variables. The general format of the pipe operator is `LHS |> RHS`,  where `LHS` is the first argument of the function defined on the `RHS`.
+
+```{r}
+set.seed(200)
+# Generate a vector  of random numbers
+n1 <- runif(n = 10)
+# Show the minimum the usual way
+min(n1)
+# Use the native pipe to generate the same answer
+n1 |> min()
+```
+
+
