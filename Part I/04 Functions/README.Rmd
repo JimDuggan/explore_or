@@ -1,0 +1,4 @@
+---
+output: github_document
+title:  Chapter 4 Examples -  Functions, Functionals and the R Pipe
+---
