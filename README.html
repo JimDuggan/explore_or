@@ -352,10 +352,14 @@ display: none;
 </div>
 
 
-<div id="exploring-operations-research-with-r" class="section level1">
-<h1>Exploring Operations Research with R</h1>
-<div id="overview" class="section level2">
-<h2>Overview</h2>
+<div id="exploring-operations-research-with-r" class="section level2">
+<h2>Exploring Operations Research with R</h2>
+<p><em>Management is the process of converting information into action.
+The conversion process we call decision making.</em> <a href="https://en.wikipedia.org/wiki/Jay_Wright_Forrester"><strong>Jay W.
+Forrester</strong></a>, <a href="https://www.amazon.co.uk/Industrial-Dynamics-Jay-W-Forrester/dp/1883823366"><em>Industrial
+Dynamics (1961)</em></a>.</p>
+<div id="overview" class="section level3">
+<h3>Overview</h3>
 <p>This is the code repository for my new book <a href="https://www.routledge.com/Exploring-Operations-Research-with-R/Duggan/p/book/9781032277165"><em>Exploring
 Operations Research with R</em></a>.</p>
 <p align="center" width="100%">
@@ -374,28 +378,17 @@ data representation, manipulation, and analysis.</p>
 applied to a range of OR challenges in the domains of public health,
 infectious diseases, and energy generation, and so provide a platform to
 develop actionable insights to support decision making.</p>
-<p>The book contains three parts:</p>
-<ol style="list-style-type: decimal">
-<li><p><em>Part I</em> introduces R, and provides a step-by-step guide
-to the key features of R. The initial focus is on base R, and data
+<p>The book contains three parts, and code from these three parts can be
+accessed via the links below.</p>
+</div>
+<div id="part-i---base-r" class="section level3">
+<h3>Part I - Base R</h3>
+<p><em>Part I</em> introduces R, and provides a step-by-step guide to
+the key features of R. The initial focus is on base R, and data
 structures, including: vectors, matrices, lists, data frames, and
 tibbles. The building blocks of R — functions — are presented, along
 with important ideas including environments, functionals, and the S3
-object system.</p></li>
-<li><p><em>Part II</em>, presents R’s <a href="https://www.tidyverse.org">tidyverse</a>, where the main focus is
-on: <code>ggplot2</code>, <code>dplyr</code>, <code>tidyr</code>,
-<code>purrr</code>, and <code>shiny</code>, as together these provide a
-versatile platform for rapidly analyzing, interpreting and visualizing
-data.</p></li>
-<li><p><em>Part III</em> focuses on four practical examples of using R
-to support operations research methods. These include exploratory data
-analysis, linear programming, agent-based simulation, and system
-dynamics.</p></li>
-</ol>
-</div>
-<div id="part-i---base-r" class="section level2">
-<h2>Part I - Base R</h2>
-<p>Part 1 contains</p>
+object system.</p>
 <ol style="list-style-type: decimal">
 <li><p><a href="https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started">Getting
 started with R</a></p></li>
@@ -406,8 +399,23 @@ started with R</a></p></li>
 <li><p>The S3 Object System in R</p></li>
 </ol>
 </div>
-<div id="required-software" class="section level2">
-<h2>Required Software</h2>
+<div id="part-2---the-tidyverse-and-shiny" class="section level3">
+<h3>Part 2 - The <code>tidyverse</code> and <code>shiny</code></h3>
+<p><em>Part II</em>, presents R’s <a href="https://www.tidyverse.org">tidyverse</a>, where the main focus is
+on: <code>ggplot2</code>, <code>dplyr</code>, <code>tidyr</code>,
+<code>purrr</code>, and <code>shiny</code>, as together these provide a
+versatile platform for rapidly analyzing, interpreting and visualizing
+data.</p>
+</div>
+<div id="part-3---exploring-or-using-r" class="section level3">
+<h3>Part 3 - Exploring OR using R</h3>
+<p><em>Part III</em> focuses on four practical examples of using R to
+support operations research methods. These are exploratory data
+analysis, linear programming, agent-based simulation, and system
+dynamics.</p>
+</div>
+<div id="required-software" class="section level3">
+<h3>Required Software</h3>
 <p>The following software is needed to run the examples:</p>
 <ol style="list-style-type: decimal">
 <li><p>R, which can be downloaded from CRAN at <a href="https://cran.r-project.org" class="uri">https://cran.r-project.org</a>.</p></li>
@@ -419,29 +427,32 @@ can be done from within RStudio. Examples of packages are
 to support system dynamics modelling.</p></li>
 </ol>
 </div>
-<div id="recommened-readings" class="section level2">
-<h2>Recommened Readings</h2>
+<div id="recommened-readings" class="section level3">
+<h3>Recommened Readings</h3>
 <p>The following books have been valuable reference resources in writing
 this textbook.</p>
 <ul>
-<li><p><a href><em>Advanced R</em></a> by Hadley Wickham <span class="citation">[@wickham2019advanced]</span>, which presents a deep
-dive into R, and covers many fascinating technical topics, including
-object-oriented programming and metaprogramming.</p></li>
-<li><p><em>R for Data Science</em> by Hadley Wickham, Mine
-etinkaya-Rundel and Garrett Grolemund <span class="citation">[@wickham2023r]</span>, aimed at data scientists to
-show how to perform data science with R, RStudio and the tidyverse
-collection of R packages.</p></li>
-<li><p><em>Forecasting Principles and Practice</em> by Rob J. Hyndman
-and George Athanasopoulos <span class="citation">[@hyndman2018forecasting]</span>, which provides a
-comprehensive introduction to forecasting methods in R and also presents
-a valuable data processing pipeline for manipulating time series
-data.</p></li>
-<li><p><em>Introduction to Statistical Learning</em>, by Gareth James,
-Daniela Witten, Trevor Hastie, and Robert Tibshirani <span class="citation">[@james2013introduction]</span> which demonstrates the
-application of the statistical learning methods in R, covering both
-supervised and unsupervised learning.</p></li>
-<li><p><em>Tidy Modeling with R</em>, by Max Kuhn and Julia Silge <span class="citation">[@kuhn2022tidy]</span>, which introduces a collection
-of R packages to support modelling and machine learning.</p></li>
+<li><p><a href="https://adv-r.hadley.nz"><em>Advanced R</em></a> by
+Hadley Wickham, which presents a deep dive into R, and covers many
+fascinating technical topics, including object-oriented programming and
+metaprogramming.</p></li>
+<li><p><a href="https://r4ds.hadley.nz"><em>R for Data Science</em></a>
+by Hadley Wickham, Mine Cetinkaya-Rundel and Garrett Grolemund, aimed at
+data scientists to show how to perform data science with R, RStudio and
+the tidyverse collection of R packages.</p></li>
+<li><p><a href="https://otexts.com/fpp3/"><em>Forecasting Principles and
+Practice</em></a> by Rob J. Hyndman and George Athanasopoulos, which
+provides a comprehensive introduction to forecasting methods in R and
+also presents a valuable data processing pipeline for manipulating time
+series data.</p></li>
+<li><p><a href="https://www.statlearning.com"><em>Introduction to
+Statistical Learning</em></a>, by Gareth James, Daniela Witten, Trevor
+Hastie, and Robert Tibshirani which demonstrates the application of the
+statistical learning methods in R, covering both supervised and
+unsupervised learning.</p></li>
+<li><p><a href="https://www.tmwr.org"><em>Tidy Modeling with R</em></a>,
+by Max Kuhn and Julia Silge, which introduces a collection of R packages
+to support modelling and machine learning.</p></li>
 </ul>
 </div>
 </div>
