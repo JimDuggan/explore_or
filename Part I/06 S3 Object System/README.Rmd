@@ -1,0 +1,7 @@
+---
+output: github_document
+title:  Chapter 6 Examples -  S3 Object System
+---
+
+
+
