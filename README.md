@@ -26,7 +26,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 2. [Vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/02%20Vectors)
 
-3. Subsetting vectors
+3. [Subsetting vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/03%20Subsetting%20vectors)
 
 4. Functions, Functionals and the R Pipe
 
