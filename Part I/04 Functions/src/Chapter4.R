@@ -76,3 +76,25 @@ is_target   <- unlist(is_target)
 # Filter the list to contain the George Lucas movies
 target_list <- sw_films[is_target]
 length(target_list)
+
+
+# The native pipe operator in R, represented by the symbol `|>`, allows you to chain a number of operations 
+# together, without having to assign intermediate variables. 
+
+set.seed(200)
+# Generate a vector  of random numbers
+n1 <- runif(n = 10)
+# Show the minimum the usual way
+min(n1)
+# Use the native pipe to generate the same answer
+n1 |> min()
+
+n1 |> min() |> round(3)
+
+a1 <- mtcars                      |>  # The input
+      as.list()                   |>  # Convert to a list
+      lapply(function(x)mean(x))  |>  # Get the mean of each element
+      unlist()                        # Convert to atomic vector
+a1
+
+
