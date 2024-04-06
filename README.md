@@ -32,7 +32,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
 
-6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System)
+6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/06%20S3%20Object%20System/src/Chapter6.R)
 
 
 
