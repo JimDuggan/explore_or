@@ -30,7 +30,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 4. [Functions, Functionals and the R Pipe](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/04%20Functions) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/04%20Functions/src/Chapter4.R)
 
-5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames)
+5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
 
 6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System)
 
