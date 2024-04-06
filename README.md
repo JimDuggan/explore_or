@@ -22,7 +22,7 @@ The book contains three parts, and code from these three parts can be accessed v
 ### Part I - Base R
 *Part I* introduces R, and provides a step-by-step guide to the key features of R. The initial  focus is on base R, and data structures, including: vectors, matrices, lists, data frames, and tibbles. The building blocks of R --- functions --- are presented, along with important ideas including environments, functionals, and the S3 object system. 
 
-1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started)
+1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/01%20Getting%20Started/src/Chapter1.R)
 
 2. [Vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/02%20Vectors)
 
