@@ -2,3 +2,115 @@
 output: github_document
 title:  Chapter 7 Examples -  Visualization with ggplot2
 ---
+
+### Exploring relationships with a scatterplot
+Creating a scatterplot to explore the relationship between two numeric variables is a convenient way to start our 
+exploration of `ggplot2`
+
+We include the library `ggplot2`, and will focus on the tibble `mpg`.
+
+```{r}
+library(ggplot2)
+mpg
+```
+
+```{r, gg-fig-7-1, fig.cap = "Plotting displacement v city miles per gallon"}
+ggplot(data=mpg, mapping=aes(x=displ,y=cty)) +
+  geom_point()
+```
+
+We can set the `aes()` argument `color` to the particular variable we would like to color the plot by. 
+
+```{r, gg-fig-7-2, fig.cap = "Coloring the points by the class variable"}
+ggplot(data=mpg,mapping=aes(x=displ,y=cty,color=class))+
+  geom_point()
+```
+
+
+Plots can be stored in a variable, and then added to using the `+` operator. Here the function `labs()` can be used to organise plot information.
+
+```{r, gg-fig-7-4, fig.cap = "Configuring the plot using the labs() function"}
+p1 <- ggplot(data=mpg,aes(x=displ,y=hwy,size=cyl,color=class))+
+        geom_point()
+
+p1 <- p1 + 
+       labs(
+         title = "Exploring automobile relationships",
+         subtitle = "Displacement v Highway Miles Per Gallon",
+         color = "Class of Car",
+         size = "Cylinder Size",
+         caption = "Sample chart using the lab() function",
+         tag = "Plot #1",
+         x = "Displacement (Litres)",
+         y = "Highway Miles Per Gallon"
+       )
+
+p1
+
+```
+
+
+### Subplots with facets
+Plots can be divided into subplots using `facet_wrap()`.
+
+```{r,gg-fig-7-6, fig.cap = "Using facets to sub-divide plots"}
+ggplot(data=mpg,aes(x=displ,y=cty))+
+  geom_point()+
+  facet_wrap(~class)
+```
+
+A 2D grid can also be arranged for subplots. Here the rows are the variable `class`, while the columns are the variable `drv`.
+
+```{r,gg-fig-7-7, fig.cap = "Generating a grid of plots"}
+ggplot(data=mpg,mapping = aes(x=displ,y=cty))+
+  geom_point()+
+  facet_grid(class~drv)
+```
+
+
+### Statistical transformations
+Here we show a bar chart.
+
+```{r,,gg-fig-7-8, fig.cap = "A bar chart show frequency counts of diamond cuts"}
+ggplot(data=diamonds,mapping=aes(x=cut))+
+  geom_bar()
+```
+
+And now, we draw a histogram using `geom_histogram()`
+
+```{r,gg-fig-7-13, fig.cap = "Display the price histogram for all diamonds"}
+ggplot(data=diamonds,mapping=aes(x=price))+
+  geom_histogram(bins = 15)
+```
+
+Boxplots are useful representations of continuous data.
+
+```{r,gg-fig-7-16, fig.cap = "Highlighting continuous variables using a boxplot"}
+ggplot(data=mpg,mapping=aes(y=cty,x=class))+
+  geom_boxplot()
+```
+
+
+### Covariation with `ggpairs()`
+
+It is useful to visualize associations between variables.
+
+```{r,gg-fig-7-17, fig.cap = "Visualising possible associations between three variables",message=FALSE}
+library(GGally)
+my_vars <- subset(mpg,select=c(cty,hwy,displ))
+ggpairs(my_vars)
+```
+
+### Themes with `ggplot2`
+We can use different themese when displaying plots.
+
+```{r}
+p1 <- ggplot(mpg,aes(x=displ,y=cty,colour=class)) + geom_point()
+
+p1 + theme_bw() + ggtitle("theme_bw()")
+p1 + theme_light() + ggtitle("theme_light()")
+p1 + theme_dark()+ ggtitle("theme_dark()")
+p1 + theme_minimal()+ ggtitle("theme_minimal()")
+p1 + theme_classic() + ggtitle("theme_classic()")
+p1 + theme_void() + ggtitle("theme_void()")
+```

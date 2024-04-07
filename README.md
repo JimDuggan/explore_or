@@ -40,15 +40,15 @@ The book contains three parts, and code from these three parts can be accessed v
 *Part II*, presents R's  [tidyverse](https://www.tidyverse.org), where the main focus is on: `ggplot2`, `dplyr`, `tidyr`, `purrr`, and `shiny`, as together these provide a versatile platform for rapidly analyzing, interpreting and visualizing data.
 
 
-7. Visualization with ggplot2
+7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2)
 
-8. Data Transformation with dplyr
+8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr)
 
-9. Relational Data with dplyr and Tidying Data with tidyr
+9. [Relational Data with dplyr and Tidying Data with tidyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/09%20dplyr%20tidyr)
 
-10. Processing Data with purrr
+10. [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr)
 
-11. Shiny
+11. [Shiny](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/11%20Shiny)
 
 
 ### Part 3 - Exploring OR using R
