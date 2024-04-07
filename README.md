@@ -40,8 +40,28 @@ The book contains three parts, and code from these three parts can be accessed v
 *Part II*, presents R's  [tidyverse](https://www.tidyverse.org), where the main focus is on: `ggplot2`, `dplyr`, `tidyr`, `purrr`, and `shiny`, as together these provide a versatile platform for rapidly analyzing, interpreting and visualizing data.
 
 
+7. Visualization with ggplot2
+
+8. Data Transformation with dplyr
+
+9. Relational Data with dplyr and Tidying Data with tidyr
+
+10. Processing Data with purrr
+
+11. Shiny
+
+
 ### Part 3 - Exploring OR using R
 *Part III* focuses on four practical examples of using R to support operations research methods. These are exploratory data analysis, linear programming, agent-based simulation, and system dynamics. 
+
+12. Exploratory Data Analysis
+
+13. Linear Programming
+
+14. Agent-Based Simulation
+
+15. System Dynamics
+
 
 ### Required Software
 
