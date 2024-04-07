@@ -1,68 +1,68 @@
-# Chapter 1: Getting Started with R
-
-# Assign 25 to  x
-x <- 25
-# Display x
-x
-# Add 21 to x and store the result y
-y <- x + 25
-# Display y
-y
+# Chapter 7 Examples: Visualization with ggplot2 
 
 
-# Call the function c() 
-# Store the result in the variable v
-v <- c(10, 20, 30)
-# Display v
-v
-
-sum(v)
-mean(v)
-sqrt(v)
-
-
-# install.packages("aimsir17")
-
-
-
-library(aimsir17)
 library(ggplot2)
+mpg
 
-head(stations)
 
 
-p1 <- ggplot(mtcars,aes(x=disp,y=mpg))+
+ggplot(data=mpg, mapping=aes(x=displ,y=cty)) +
+  geom_point()
+
+
+ggplot(data=mpg,mapping=aes(x=displ,y=cty,color=class))+
+  geom_point()
+
+
+p1 <- ggplot(data=mpg,aes(x=displ,y=hwy,size=cyl,color=class))+
+  geom_point()
+
+p1 <- p1 + 
+  labs(
+    title = "Exploring automobile relationships",
+    subtitle = "Displacement v Highway Miles Per Gallon",
+    color = "Class of Car",
+    size = "Cylinder Size",
+    caption = "Sample chart using the lab() function",
+    tag = "Plot #1",
+    x = "Displacement (Litres)",
+    y = "Highway Miles Per Gallon"
+  )
+
+p1
+
+ggplot(data=mpg,aes(x=displ,y=cty))+
   geom_point()+
-  geom_smooth(method="lm",se = F)+
-  labs(title="A simple regression example in R",
-       subtitle = "Data points for 32 automobiles showing the line of best fit",
-       x="Displacement (cubic inches)",
-       y="Miles per gallon")
+  facet_wrap(~class)
 
 
-X <- mtcars$disp
-X
-
-Y <- mtcars$mpg
-Y
+ggplot(data=mpg,mapping = aes(x=displ,y=cty))+
+  geom_point()+
+  facet_grid(class~drv)
 
 
-mod <- lm(Y~X)
-coefficients(mod)
+ggplot(data=diamonds,mapping=aes(x=cut))+
+  geom_bar()
 
 
-
-cor(Y,X)
-
-
+ggplot(data=diamonds,mapping=aes(x=price))+
+  geom_histogram(bins = 15)
 
 
+ggplot(data=mpg,mapping=aes(y=cty,x=class))+
+  geom_boxplot()
+
+library(GGally)
+my_vars <- subset(mpg,select=c(cty,hwy,displ))
+ggpairs(my_vars)
 
 
+p1 <- ggplot(mpg,aes(x=displ,y=cty,colour=class)) + geom_point()
 
-
-
-
-
-
+p1 + theme_bw() + ggtitle("theme_bw()")
+p1 + theme_light() + ggtitle("theme_light()")
+p1 + theme_dark()+ ggtitle("theme_dark()")
+p1 + theme_minimal()+ ggtitle("theme_minimal()")
+p1 + theme_classic() + ggtitle("theme_classic()")
+p1 + theme_void() + ggtitle("theme_void()")
 
