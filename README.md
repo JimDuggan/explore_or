@@ -42,7 +42,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
 
-8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr)
+8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/08%20dplyr/src/Chapter8.R)
 
 9. [Relational Data with dplyr and Tidying Data with tidyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/09%20dplyr%20tidyr)
 
