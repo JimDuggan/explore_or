@@ -2,3 +2,112 @@
 output: github_document
 title:  Chapter 8 Examples -  Data Transformation with dplyr
 ---
+
+The package `dplyr` provides  functions to support data transformations, and also additional functions that can be used to summarize data.
+
+First, we include the `dplyr` library, and the library `ggplot2`, which contains the tibble `mpg`.
+```{r,message=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+### Filtering rows with `filter()`
+
+The function `filter()` is used to subset a tibble, in which all rows satisfying a condition are retained. This function conforms to the *architecture* of `dplyr`, in that it accepts a tibble, and arguments, and always returns a tibble. Note the use of the package name `dplyr::` in these function calls is optional.
+
+```{r}
+dplyr::filter(mpg,class=="2seater")
+
+dplyr::filter(mpg,class=="2seater",hwy >= 25)
+
+
+dplyr::filter(mpg, manufacturer == "lincoln" | 
+                   manufacturer == "mercury")
+
+dplyr::filter(mpg, manufacturer %in% c("lincoln","mercury"))
+```
+
+
+### Sorting rows with `arrange()`
+The `arrange()` function orders the rows of a tibble by the values of selected columns, and these can be in ascending order (the default), or descending order, by using the function `desc()`. 
+
+```{r,echo=T}
+dplyr::arrange(mpg,cty) %>% slice(1:3)
+
+dplyr::arrange(mpg,desc(cty)) %>% slice(1:3)
+```
+
+### Choosing columns with `select()`
+The function `select()` allows you to subset columns from the input tibble using the column names. Note that `select()` will always return all of the observations for the selected columns.  
+
+```{r,echo=T}
+dplyr::select(mpg,manufacturer,model,year,displ,cty)
+
+mpg %>% dplyr::select(manufacturer:year,cty)
+
+mpg %>% dplyr::select(!(manufacturer:year))
+
+mpg %>% dplyr::select(c(manufacturer:year,cty))
+
+mpg %>% dplyr::select(starts_with("m"))
+
+mpg %>% dplyr::select(contains("an"))
+
+mpg %>% 
+  dplyr::select(manufacturer:year,cty,hwy,everything())
+
+```
+
+
+### Adding columns with `mutate()`
+The function `mutate()` adds new variables to a tibble, while keeping the original ones.
+
+To explore `mutate()`, we take a reduced version of `mpg`, with six random observations and a smaller set of columns. Note that we use the dplyr function `sample_n()` to generate a sample from `mpg`, from two classes, "compact" and "midsize".
+
+```{r,echo=T}
+set.seed(100)
+mpg_m <- mpg %>%
+         dplyr::filter(class %in% c("compact","midsize")) %>%
+         dplyr::select(manufacturer:year,cty,class) %>%
+         dplyr::sample_n(6)
+mpg_m
+```
+
+
+A vector of size 1 is added, and this is recycled to the correct length. 
+
+```{r,echo=T}
+mpg_m %>% dplyr::mutate(Test="A test")
+```
+
+A vector of the same length is added, and this vector is based on an existing column.
+
+```{r,echo=T}
+mpg_m %>% dplyr::mutate(cty_kmh=cty*1.6,
+                        cty_2=cty_kmh/1.6)
+```
+
+
+### Summarizing observations with summarize()
+The function `summarize()` creates a new tibble. It will have one (or more) rows for each combination of grouping variable.
+
+```{r}
+mpg %>% 
+  dplyr::summarize(CtyAvr=mean(cty),
+                   CtySD=sd(cty),
+                   HwyAvr=mean(hwy),
+                   HwySD=sd(hwy))
+```
+
+You can group by a variable, or a set of variables. This allows for summaries by group, which is very useful.
+
+```{r}
+mpg %>% 
+  dplyr::group_by(class) %>%
+  dplyr::summarize(CtyAvr=mean(cty),
+                   CtySD=sd(cty),
+                   HwyAvr=mean(hwy),
+                   HwySD=sd(hwy),
+                   N=dplyr::n()) %>%
+  ungroup()
+```
+

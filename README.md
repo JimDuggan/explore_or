@@ -40,7 +40,7 @@ The book contains three parts, and code from these three parts can be accessed v
 *Part II*, presents R's  [tidyverse](https://www.tidyverse.org), where the main focus is on: `ggplot2`, `dplyr`, `tidyr`, `purrr`, and `shiny`, as together these provide a versatile platform for rapidly analyzing, interpreting and visualizing data.
 
 
-7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2)
+7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
 
 8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr)
 

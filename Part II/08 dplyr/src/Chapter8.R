@@ -1,68 +1,32 @@
-# Chapter 1: Getting Started with R
+# Chapter 8: Data Transformation with dplyr
 
-# Assign 25 to  x
-x <- 25
-# Display x
-x
-# Add 21 to x and store the result y
-y <- x + 25
-# Display y
-y
-
-
-# Call the function c() 
-# Store the result in the variable v
-v <- c(10, 20, 30)
-# Display v
-v
-
-sum(v)
-mean(v)
-sqrt(v)
-
-
-# install.packages("aimsir17")
-
-
-
-library(aimsir17)
+library(dplyr)
 library(ggplot2)
 
-head(stations)
+# filter - select rows from a tibble
+mpg1 <- filter(mpg,class=="2seater")
+mpg1
 
 
-p1 <- ggplot(mtcars,aes(x=disp,y=mpg))+
-  geom_point()+
-  geom_smooth(method="lm",se = F)+
-  labs(title="A simple regression example in R",
-       subtitle = "Data points for 32 automobiles showing the line of best fit",
-       x="Displacement (cubic inches)",
-       y="Miles per gallon")
+mpg2 <- filter(mpg,class=="2seater",hwy >= 25)
+mpg2
 
 
-X <- mtcars$disp
-X
+mpg3 <- filter(mpg,
+               manufacturer == "lincoln" | 
+               manufacturer == "mercury")
+mpg3
 
-Y <- mtcars$mpg
-Y
-
-
-mod <- lm(Y~X)
-coefficients(mod)
-
+mpg4 <- filter(mpg,
+               manufacturer %in% c("lincoln","mercury"))
+mpg4
 
 
-cor(Y,X)
+# arrange - sort rows (use of package name is optional)
 
+dplyr::arrange(mpg,cty) %>% slice(1:3)
 
+dplyr::arrange(mpg,desc(cty)) %>% slice(1:3)
 
-
-
-
-
-
-
-
-
-
+dplyr::arrange(mpg,class,desc(cty)) %>% slice(1:7)
 
