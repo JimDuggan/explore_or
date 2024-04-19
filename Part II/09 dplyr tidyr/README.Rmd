@@ -2,3 +2,115 @@
 output: github_document
 title:  Chapter 9 Examples -  Relational Data with dplyr and Tidying Data with tidyr
 ---
+
+### Relational data
+
+A relational model organizes data into one or more tables of columns and rows, where  a unique key identifies each row. A key can be a single column value, known as a primary key, for example, a unique identifier for a person.   For example, for the tibble `aimsir17::stations`, the primary key is the variable `station`, as this value is unique for each row, and therefore can be used to identify a single observation.
+
+```{r,message=FALSE}
+library(aimsir17)
+library(dplyr)
+
+stations %>% dplyr::filter(station=="MACE HEAD")
+```
+
+We will now provide a simple example, which will be used to show how two tables can be linked together via a foreign key. The idea here is that we can represent two important ideas from a company's information system, namely *products* and *orders*, in two separate, but related, tables.
+
+```{r}
+products <- tibble(ProductID=c("PR-1","PR-2","PR-3","PR-9"),
+                   Type=c("Computer","Tablet","Phone","Headphones"))
+products
+
+dplyr::filter(products,ProductID=="PR-9")
+```
+
+```{r}
+orders <- tibble(OrderID=c("OR-1","OR-2","OR-3","OR-4","OR-5"),
+                 Quantity=c(1,2,1,2,3),
+                 ProductID=c("PR-1","PR-2","PR-3","PR-4","PR-1"))
+orders
+
+dplyr::filter(orders,OrderID=="OR-5")
+```
+
+### Mutating joins
+
+The `inner_join()` function joins observations that appear in both tables, based on a common key, which need to be present in both tables.
+
+```{r}
+i_j <- dplyr::inner_join(orders,products,by="ProductID")
+i_j
+```
+
+A left join will keep all observations in the tibble `x`, even if there is no match in tibble `y`. This is a widely used function, given that it maintains all the observations in `x`. 
+
+```{r}
+l_j1 <- dplyr::left_join(orders,products,by="ProductID")
+l_j1
+```
+
+
+A right join keeps all observations in the tibble y. In this example, we can see that all the product information is shown (there are five products in all), but that the order "OR-4" is missing, as that is for "PR-4", which is not present in the `products` table.
+
+```{r}
+r_j1 <- dplyr::right_join(orders,products,by="ProductID")
+r_j1
+```
+
+A full join keeps all observations in both x and y. The same overall result is obtained regardless of which tibble is the first one. For example, here is a full join of products and orders.
+
+```{r}
+f_j1 <- dplyr::full_join(products,orders,by="ProductID")
+f_j1
+```
+
+
+### Filtering joins
+
+The function `semi_join()` will keep all the observations in x that have a matching column in y. In our manufacturing example, we can perform this join based on the `ProductID`, starting with the orders table.
+
+```{r}
+s_j1 <- dplyr::semi_join(orders,products,by="ProductID")
+s_j1
+```
+
+The filtering function `anti_join()` will keep all the observations in x that do have a matching column in y. Again, this is a filtering join, and therefore only observations from the first tibble are returned. The function can be applied to our example, and yields the following results.
+
+
+```{r}
+a_j1 <- dplyr::anti_join(orders,products,by="ProductID")
+a_j1
+```
+
+
+### Tidy data
+This is an example of untidy data, where every row is not one observation, and columns are not variables.
+
+We will now re-create the untidy data in R using atomic vectors and the `tibble()` function. We include the library `tidyr`, as this contains functions to transform the data to tidy format.
+
+\index{packages!tidyr}
+\index{tidy data!tidyr}
+
+```{r}
+library(dplyr)
+library(tidyr)
+set.seed(100)
+N = 2
+
+res <- tibble(ID=paste0("ID",1:N),
+              CX101=sample(30:70,N),
+              CX102=sample(40:80,N),
+              CX103=sample(60:70,N))
+res
+```
+
+Using `pivot_longer()`, we can now convert the tibble to a longer format.
+
+```{r}
+res_l <- tidyr::pivot_longer(res,
+                             `CX101`:`CX103`,
+                             names_to="Subject",
+                             values_to="Grade")
+
+res_l
+```
