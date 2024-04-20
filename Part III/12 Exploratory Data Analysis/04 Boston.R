@@ -1,5 +1,3 @@
-# https://www.statology.org/iris-dataset-r/
-
 # Boston Housing Values in Suburbs of Boston
 
 # crim per capita crime rate by town.

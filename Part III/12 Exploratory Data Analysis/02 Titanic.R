@@ -1,5 +1,3 @@
-# https://www.statology.org/iris-dataset-r/
-
 library(ggplot2)
 library(dplyr)
 library(titanic)

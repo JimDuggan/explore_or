@@ -54,7 +54,16 @@ The book contains three parts, and code from these three parts can be accessed v
 ### Part 3 - Exploring OR using R
 *Part III* focuses on four practical examples of using R to support operations research methods. These are exploratory data analysis, linear programming, agent-based simulation, and system dynamics. 
 
-12. Exploratory Data Analysis
+12. Exploratory Data Analysis Examples. 
+* [Iris Flowers](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/01%20Iris.R)
+
+* [Titanic](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/02%20Titanic.R)
+
+* [Victoria Electricity](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/03%20Vic%20Elec.R)
+
+* [Boston Housing - MASS package](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/04%20Boston.R)
+
+* [Irish Weather](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/05%20aimsir17.R)
 
 13. Linear Programming
 
