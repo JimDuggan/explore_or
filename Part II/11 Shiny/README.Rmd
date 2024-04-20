@@ -1,4 +1,0 @@
----
-output: github_document
-title:  Chapter 11 Examples -  Shiny
----
