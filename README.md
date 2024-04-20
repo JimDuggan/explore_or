@@ -95,7 +95,7 @@ The following software is needed to run the examples:
 3. Specific packages from CRAN that are used in the book, and this can be done from within RStudio. Examples of packages are `ggplot2` to support visualization, and `deSolve` to support system dynamics modelling.
 
 
-### Recommened Readings
+### Recommended Readings
 The following books have been valuable reference resources in writing this textbook.
 
 * [*Advanced R*](https://adv-r.hadley.nz) by Hadley Wickham, which presents a deep dive into R, and covers many fascinating technical topics, including object-oriented programming and metaprogramming.
