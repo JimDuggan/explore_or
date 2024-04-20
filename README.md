@@ -58,7 +58,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 13. Linear Programming
 
-14. Agent-Based Simulation
+14. [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
 
 15. System Dynamics
 
