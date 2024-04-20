@@ -60,7 +60,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 14. [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
 
-15. System Dynamics
+15. [System Dynamics - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/15%20System%20Dynamics/Chapter15.R)
 
 
 ### Required Software
