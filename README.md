@@ -46,7 +46,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 9. [Relational Data with dplyr and Tidying Data with tidyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/09%20dplyr%20tidyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/09%20dplyr%20tidyr/src/Chapter9.R)
 
-10. [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr)
+10. [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/10%20purrr/src/Chapter10.R)
 
 11. Shiny Examples.
 

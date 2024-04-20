@@ -4,6 +4,7 @@ library(purrr)
 library(ggpubr)
 
 
+# We define the model within a function.
 sirh <- function(time, stocks, auxs){
   with(as.list(c(stocks, auxs)),{
     N <- S + I + R + H
@@ -34,6 +35,8 @@ sirh <- function(time, stocks, auxs){
   })
 }
 
+# We define an extra function to run the model. This is useful, as we can then call
+# this many times for sensitivity analysis
 run_scenario <- function(run_id=1,
                          stocks=c(S=9999,I=1,H=0,R=0,M=1),
                          simtime=seq(0,50,by=0.25),
@@ -57,18 +60,16 @@ run_scenario <- function(run_id=1,
          select(RunID, everything())
 }
  
-# set.seed(100)                       
-# alpha_vals <- runif(2000,0,.2)
-# vacc_vals  <- runif(2000,0,0.05)
 
+# Defining the range of parameters to be varied
 alpha_vals <- seq(0,.20,length.out=50)
 vacc_vals  <- seq(0,0.05,length.out=50)
 sim_inputs <- expand.grid(alpha_vals,vacc_vals)
 
 
-
 run_id <- 1
 
+# Use map2 to run all the 2500 simulations
 sim_res <- map2(sim_inputs[,1],sim_inputs[,2],~{
   res <- run_scenario(run_id = run_id,
                       alpha = .x,
@@ -81,6 +82,7 @@ sim_res <- map2(sim_inputs[,1],sim_inputs[,2],~{
 sim_res
 
 
+# Gather the results and plot graphs
 p1 <- ggplot(sim_res,aes(x=time,y=Infections,colour=RunID,group=RunID))+geom_line()+
   scale_colour_gradientn(colors=rainbow(14))+
   theme(legend.position = "none")+
