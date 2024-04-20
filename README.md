@@ -65,7 +65,7 @@ The book contains three parts, and code from these three parts can be accessed v
 
 * [Irish Weather](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/05%20aimsir17.R)
 
-13. Linear Programming
+13. [Linear Programming - Reddy Mikks Example](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/13%20Linear%20Programming/Chapter13.R)
 
 14. [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
 
