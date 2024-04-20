@@ -48,7 +48,19 @@ The book contains three parts, and code from these three parts can be accessed v
 
 10. [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr)
 
-11. [Shiny](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/11%20Shiny)
+11. Shiny Examples.
+
+* [Hello Shiny](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/01%20Hello%20Shiny/app.R)
+
+* [Process Numbers](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/02%20Process%20Number/app.R)
+
+* [Weather Stations](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/03%20Weather%20Stations/app.R)
+
+* [Data Frame Example](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/04%20Data%20Frame%20Example/app.R)
+
+* [Plots](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/05%20mpg/app.R)
+
+* [Reactive Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/06%20Poisson%20Reactive/02%20Reactive/app.R)
 
 
 ### Part 3 - Exploring OR using R
