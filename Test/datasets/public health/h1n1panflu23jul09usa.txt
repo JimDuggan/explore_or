@@ -1,0 +1,52 @@
+"State","Cases","Deaths","Population"
+"Alabama",477,0,4661900
+"Alaska",272,0,686293
+"Arizona",947,15,6500180
+"Arkansas",131,0,2855390
+"California",3161,52,36756666
+"Colorado",171,0,4939456
+"Connecticut",1713,8,3501252
+"Delaware",381,0,873092
+"District of Columbia",45,0,591833
+"Florida",2915,23,18328340
+"Georgia",222,1,9685744
+"Hawaii",1424,3,1288198
+"Idaho",166,0,1523816
+"Illinois",3404,17,12901563
+"Indiana",291,1,6376792
+"Iowa",165,0,3002555
+"Kansas",204,0,2802134
+"Kentucky",143,0,4269245
+"Louisiana",232,0,4410796
+"Maine",145,0,1316456
+"Maryland",766,4,5633597
+"Massachusetts",1370,5,6497967
+"Michigan",515,9,10003422
+"Minnesota",670,3,5220393
+"Mississippi",252,0,2938618
+"Missouri",76,1,5911605
+"Montana",94,0,967440
+"Nebraska",313,1,1783432
+"Nevada",467,0,2600167
+"New Hampshire",247,0,1315809
+"New Jersey",1414,15,8682661
+"New Mexico",232,0,1984356
+"New York",2738,63,19490297
+"North Carolina",483,5,9222414
+"North Dakota",63,0,641481
+"Ohio",188,1,11485910
+"Oklahoma",189,1,3642361
+"Oregon",524,5,3790060
+"Pennsylvania",1960,8,12448279
+"Rhode Island",192,2,1050788
+"South Carolina",244,0,4479800
+"South Dakota",45,0,804194
+"Tennessee",283,1,6214888
+"Texas",5151,27,24326974
+"Utah",988,16,2736424
+"Vermont",59,0,621270
+"Virginia",327,2,7769089
+"Washington",658,7,6549224
+"West Virginia",243,0,1814468
+"Wisconsin",6222,6,5627967
+"Wyoming",111,0,532668
