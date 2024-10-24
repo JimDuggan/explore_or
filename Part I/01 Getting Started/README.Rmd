@@ -3,7 +3,7 @@ output: github_document
 title:  Chapter 1 Examples -  Getting Started with R
 ---
 
-Once you have installed R, and an IDE such as RStudio, it is useful to explore how you can create an manipulate data.
+Once you have installed R, and an IDE such as RStudio, it is useful to explore how you can create and manipulate data.
 
 The following code assigns the value 25 to the variable `x` and displays it. It then creates a new variable `y` that uses the value if `x`, and then displays this.
 

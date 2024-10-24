@@ -22,17 +22,17 @@ The book contains three parts, and code from these three parts can be accessed v
 ### Part I - Base R
 *Part I* introduces R, and provides a step-by-step guide to the key features of R. The initial  focus is on base R, and data structures, including: vectors, matrices, lists, data frames, and tibbles. The building blocks of R --- functions --- are presented, along with important ideas including environments, functionals, and the S3 object system. 
 
-1. [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/01%20Getting%20Started/src/Chapter1.R)
+**ch 1.** [Getting started with R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/01%20Getting%20Started) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/01%20Getting%20Started/src/Chapter1.R)
 
-2. [Vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/02%20Vectors) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/02%20Vectors/src/Chapter2.R)
+**ch 2.** [Vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/02%20Vectors) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/02%20Vectors/src/Chapter2.R)
 
-3. [Subsetting vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/03%20Subsetting%20vectors) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/03%20Subsetting%20vectors/src/Chapter3.R)
+**ch 3.** [Subsetting vectors](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/03%20Subsetting%20vectors) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/03%20Subsetting%20vectors/src/Chapter3.R)
 
-4. [Functions, Functionals and the R Pipe](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/04%20Functions) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/04%20Functions/src/Chapter4.R)
+**ch 4.** [Functions, Functionals and the R Pipe](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/04%20Functions) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/04%20Functions/src/Chapter4.R)
 
-5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
+ch 5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
 
-6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/06%20S3%20Object%20System/src/Chapter6.R)
+ch 6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/06%20S3%20Object%20System/src/Chapter6.R)
 
 
 
@@ -40,7 +40,7 @@ The book contains three parts, and code from these three parts can be accessed v
 *Part II*, presents R's  [tidyverse](https://www.tidyverse.org), where the main focus is on: `ggplot2`, `dplyr`, `tidyr`, `purrr`, and `shiny`, as together these provide a versatile platform for rapidly analyzing, interpreting and visualizing data.
 
 
-7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
+ch 7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
 
 8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/08%20dplyr/src/Chapter8.R)
 
@@ -83,6 +83,8 @@ The book contains three parts, and code from these three parts can be accessed v
 
 15. [System Dynamics - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/15%20System%20Dynamics/Chapter15.R)
 
+
+### Related Coursework
 
 ### Required Software
 
