@@ -30,9 +30,9 @@ The book contains three parts, and code from these three parts can be accessed v
 
 **ch 4.** [Functions, Functionals and the R Pipe](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/04%20Functions) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/04%20Functions/src/Chapter4.R)
 
-ch 5. [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
+**ch 5.** [Matrices and Data Frames](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/05%20Matrices%20and%20Data%20Frames) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/05%20Matrices%20and%20Data%20Frames/src/Chapter5.R)
 
-ch 6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/06%20S3%20Object%20System/src/Chapter6.R)
+**ch 6.** [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/main/Part%20I/06%20S3%20Object%20System) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20I/06%20S3%20Object%20System/src/Chapter6.R)
 
 
 
@@ -40,15 +40,15 @@ ch 6. [The S3 Object System in R](https://github.com/JimDuggan/explore_or/tree/m
 *Part II*, presents R's  [tidyverse](https://www.tidyverse.org), where the main focus is on: `ggplot2`, `dplyr`, `tidyr`, `purrr`, and `shiny`, as together these provide a versatile platform for rapidly analyzing, interpreting and visualizing data.
 
 
-ch 7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
+**ch 7.** [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/07%20ggplot2) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/07%20ggplot2/src/Chapter7.R)
 
-8. [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/08%20dplyr/src/Chapter8.R)
+**ch 8.** [Data Transformation with dplyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/08%20dplyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/08%20dplyr/src/Chapter8.R)
 
-9. [Relational Data with dplyr and Tidying Data with tidyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/09%20dplyr%20tidyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/09%20dplyr%20tidyr/src/Chapter9.R)
+**ch 9.** [Relational Data with dplyr and Tidying Data with tidyr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/09%20dplyr%20tidyr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/09%20dplyr%20tidyr/src/Chapter9.R)
 
-10. [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/10%20purrr/src/Chapter10.R)
+**ch 10.** [Processing Data with purrr](https://github.com/JimDuggan/explore_or/tree/main/Part%20II/10%20purrr) --- [Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/10%20purrr/src/Chapter10.R)
 
-11. Shiny Examples.
+**ch 11.** Shiny Examples.
 
 * [Hello Shiny](https://github.com/JimDuggan/explore_or/blob/main/Part%20II/11%20Shiny/01%20Hello%20Shiny/app.R)
 
@@ -66,7 +66,7 @@ ch 7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/
 ### Part 3 - Exploring OR using R
 *Part III* focuses on four practical examples of using R to support operations research methods. These are exploratory data analysis, linear programming, agent-based simulation, and system dynamics. 
 
-12. Exploratory Data Analysis Examples. 
+**ch 12.** Exploratory Data Analysis Examples. 
 * [Iris Flowers](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/01%20Iris.R)
 
 * [Titanic](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/02%20Titanic.R)
@@ -77,11 +77,11 @@ ch 7. [Visualization with ggplot2](https://github.com/JimDuggan/explore_or/tree/
 
 * [Irish Weather](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/12%20Exploratory%20Data%20Analysis/05%20aimsir17.R)
 
-13. [Linear Programming - Reddy Mikks Example](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/13%20Linear%20Programming/Chapter13.R)
+**ch 13.** [Linear Programming - Reddy Mikks Example](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/13%20Linear%20Programming/Chapter13.R)
 
-14. [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
+**ch 14.** [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
 
-15. [System Dynamics - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/15%20System%20Dynamics/Chapter15.R)
+**ch 15.** [System Dynamics - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/15%20System%20Dynamics/Chapter15.R)
 
 
 ### Related Coursework
