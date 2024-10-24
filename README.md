@@ -87,7 +87,7 @@ The book contains three parts, and code from these three parts can be accessed v
 ### Related Coursework
 This repository also material related to a number of R courses I am an instructor for:
 
-1. [Data Science for Operational Researchers using R.]()
+1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
 
 ### Required Software
 
