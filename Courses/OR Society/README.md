@@ -3,8 +3,8 @@ Presentation materials for this course.
 
 ### Session 1
 
-1. Introduction to R and Posit Cloud
-2. Atomic Vectors
+1. [Introduction to R and Posit Cloud](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/slides/One%20Day%20Training/v2.0/01%20Session/01%20Introduction/pdf/R_01%20Introduction.pdf)
+2. [Atomic Vectors](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/slides/One%20Day%20Training/v2.0/01%20Session/02%20Vectors/pdf/R_02%20Vectors.pdf)
 3. Functions, Lists, and Functionals
 4. Data Frames and the Tibble
 5. ggplot2
