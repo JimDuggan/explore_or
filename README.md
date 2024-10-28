@@ -1,8 +1,11 @@
+
 ## Exploring Operations Research with R
 
-Note: This repository also material related to a number of R courses I am an instructor for:
+### Online support
+Note: This repository also contains material related to a number of R courses I am an instructor for:
 
 1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
+
 
 *Management is the process of converting information into action. The conversion process we call decision making.* [**Jay W. Forrester**](https://en.wikipedia.org/wiki/Jay_Wright_Forrester), [*Industrial Dynamics (1961)*](https://www.amazon.co.uk/Industrial-Dynamics-Jay-W-Forrester/dp/1883823366).
 
