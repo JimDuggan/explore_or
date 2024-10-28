@@ -7,14 +7,17 @@ Note: This repository also contains material related to a number of R courses I 
 1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
 
 
-*Management is the process of converting information into action. The conversion process we call decision making.* [**Jay W. Forrester**](https://en.wikipedia.org/wiki/Jay_Wright_Forrester), [*Industrial Dynamics (1961)*](https://www.amazon.co.uk/Industrial-Dynamics-Jay-W-Forrester/dp/1883823366).
-
 ### Overview
+
 This is the code repository for my 2024 book [*Exploring Operations Research with R*](https://www.routledge.com/Exploring-Operations-Research-with-R/Duggan/p/book/9781032277165).
 
 <p align="center" width="100%">
     <img width="25%" src="BookCover.png">
 </p>
+
+
+*Management is the process of converting information into action. The conversion process we call decision making.* [**Jay W. Forrester**](https://en.wikipedia.org/wiki/Jay_Wright_Forrester), [*Industrial Dynamics (1961)*](https://www.amazon.co.uk/Industrial-Dynamics-Jay-W-Forrester/dp/1883823366).
+
 
 The idea behind the book is to show how the [R Programming language](https://www.r-project.org/about.html) can be a valuable tool that can be successfully applied to the field of [operations research (OR)](https://www.theorsociety.com). 
 
