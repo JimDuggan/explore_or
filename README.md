@@ -1,5 +1,9 @@
 ## Exploring Operations Research with R
 
+Note: This repository also material related to a number of R courses I am an instructor for:
+
+1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
+
 *Management is the process of converting information into action. The conversion process we call decision making.* [**Jay W. Forrester**](https://en.wikipedia.org/wiki/Jay_Wright_Forrester), [*Industrial Dynamics (1961)*](https://www.amazon.co.uk/Industrial-Dynamics-Jay-W-Forrester/dp/1883823366).
 
 ### Overview
@@ -82,12 +86,6 @@ The book contains three parts, and code from these three parts can be accessed v
 **ch 14.** [Agent-Based Simulation - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/14%20Agent%20Based%20Simulation/Chapter14.R)
 
 **ch 15.** [System Dynamics - Code](https://github.com/JimDuggan/explore_or/blob/main/Part%20III/15%20System%20Dynamics/Chapter15.R)
-
-
-### Related Coursework
-This repository also material related to a number of R courses I am an instructor for:
-
-1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
 
 ### Required Software
 
