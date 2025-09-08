@@ -5,6 +5,7 @@
 Note: This repository also contains material related to a number of R courses I am an instructor for:
 
 1. [Data Science for Operational Researchers using R.](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society)
+2. [DCT5102: Programming for Data Analytics.](https://github.com/JimDuggan/explore_or/tree/main/Courses/CT5102)
 
 
 ### Overview
