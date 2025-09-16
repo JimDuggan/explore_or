@@ -11,3 +11,9 @@ temp_des <- ifelse(temp<4,
                    ifelse(temp>25,"Hot",
                           "Medium"))
 
+# Which observations were cold?
+
+which(temp_des == "Cold")
+
+which(temp < 4)
+
