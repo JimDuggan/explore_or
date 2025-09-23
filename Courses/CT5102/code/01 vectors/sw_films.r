@@ -1,4 +1,5 @@
 library(repurrrsive)
+library(pryr)
 # Store directors names in a vector
 v1 <- c(sw_films[[1]][["director"]],
         sw_films[[2]][[4]],
@@ -12,7 +13,8 @@ v2 <- c()
 
 for (i in seq_along(sw_films)){
   v2 <- c(v2,sw_films[[i]]$director)
-  cat("i = ",i,"\n")
+  cat("Address of v2 ",address(v2),"size = ", object_size(v2),"\n")
+  # cat("i = ",i,"\n")
 }
 
 v3 <- vector(mode="character",length=length(sw_films))
