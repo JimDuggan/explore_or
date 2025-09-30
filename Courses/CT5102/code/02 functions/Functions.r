@@ -28,5 +28,23 @@ get_maxs <- function(l){
   o_v
 }
 
+get_maxs_fn <- function(l,fn){
+  # This is an example of a functional
+  # A function that takes an input argument
+  # that is itself a function
+  # create the output vector (atomic)
+  o_v <- vector(mode="numeric",
+                length = length(l))
+  
+  for(i in seq_along(l)){
+    o_v[i] <- fn(l[[i]])
+  }
+  
+  o_v
+}
+
+
+l <- list(1:20,3:40)
+
 
 
