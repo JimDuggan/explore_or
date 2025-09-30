@@ -5,5 +5,5 @@ a <- unlist(lapply(l,min))
 
 titles <- lapply(sw_films,function(x){
   # browser()
-  c(x$title,x$director)
+  c(Title=x$title,Director=x$director)
 })
