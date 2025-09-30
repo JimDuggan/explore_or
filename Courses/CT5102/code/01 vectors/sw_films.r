@@ -9,13 +9,7 @@ v1 <- c(sw_films[[1]][["director"]],
         sw_films[[6]]$director,
         sw_films[[7]]$director)
 
-v2 <- c()
 
-for (i in seq_along(sw_films)){
-  v2 <- c(v2,sw_films[[i]]$director)
-  cat("Address of v2 ",address(v2),"size = ", object_size(v2),"\n")
-  # cat("i = ",i,"\n")
-}
 
 v3 <- vector(mode="character",length=length(sw_films))
 
