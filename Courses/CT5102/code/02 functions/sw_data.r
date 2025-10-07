@@ -35,8 +35,24 @@ crawl2 <- sw_films |>
 
 
 
-# (2) From sw_people, extract the name and height and store these as two parallel 
+# (2) From sw_people, extract the name and height 
+# and store these as two parallel 
 # atomic vectors
+
+res1 <- sw_people |>
+         lapply(function(x){
+           c(Name=x$name,Height=x$height)
+         })
+
+sw_names <- res1 |>
+            lapply(function(x)x["Name"]) |>
+            unlist()
+
+sw_heights <- res1 |>
+              lapply(function(x)x["Height"]) |>
+              unlist()
+
+sw_heights[which(sw_names=="Luke Skywalker")]
 
 
 
