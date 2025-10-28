@@ -1,0 +1,39 @@
+---
+output: github_document
+title:  Chapter 1 Examples -  Getting Started with R
+---
+
+Once you have installed R, and an IDE such as RStudio, it is useful to explore how you can create and manipulate data.
+
+The following code assigns the value 25 to the variable `x` and displays it. It then creates a new variable `y` that uses the value if `x`, and then displays this.
+
+```{r}
+# Assign 25 to  x
+x <- 25
+# Display x
+x
+# Add 21 to x and store the result y
+y <- x + 25
+# Display y
+y
+```
+
+We can create a new variable `v` which is known as an atomic vector. This means it can contain more than one value. The function `c()` creates a vector.
+
+
+```{r}
+# Call the function c() 
+# Store the result in the variable v
+v <- c(10, 20, 30)
+# Display v
+v
+```
+
+We can now use other R functions to process the variable `v`, for example, the functions `sum()`, `mean()`, and `sqrt()`. The results are shown below. 
+
+```{r}
+sum(v)
+mean(v)
+sqrt(v)
+```
+
