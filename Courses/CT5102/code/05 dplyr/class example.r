@@ -30,10 +30,10 @@ ob1 <- observations %>%
 
 p3 <- ob1 %>%
         group_by(Season) %>%
-        summarise(MinT=min(temp),
-                  MaxT=max(temp),
-                  MedT=median(temp),
-                  MeanT=mean(temp),
+        summarise(MinT=min(temp,na.rm=TRUE),
+                  MaxT=max(temp,na.rm=TRUE),
+                  MedT=median(temp,na.rm=TRUE),
+                  MeanT=mean(temp,na.rm=TRUE),
                   ColdestMonth=nth(month,which.min(temp)),
                   WarmestMonth=nth(month,which.max(temp)),
                   N=n())
