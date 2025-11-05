@@ -28,19 +28,19 @@ Alternatively, you can download R to your own device:
 
 ### Day 1
 
-* **Topic 1.** [Introduction to R](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/01%20Introduction.pdf)
-* **Topic 2.** [Exploratory Data Analysis with `ggplot2`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/02%20EDA.pdf)
-* **Topic 3.** [Transformation Data with `dplyr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/03%20dplyr.pdf)
-* **Topic 4.** [Vectors and Functions](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/04%20Vectors%20and%20Functions.pdf)
-* **Topic 5.** [Functionals with `purrr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/05%20Functionals%20with%20purrr.pdf)
+* **Topic 1.** [Introduction to R](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/01%20Introduction.pdf) [Code]()
+* **Topic 2.** [Exploratory Data Analysis with `ggplot2`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/02%20EDA.pdf) [Code]()
+* **Topic 3.** [Transformation Data with `dplyr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/03%20dplyr.pdf) [Code]()
+* **Topic 4.** [Vectors and Functions](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/04%20Vectors%20and%20Functions.pdf) [Code]()
+* **Topic 5.** [Functionals with `purrr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/05%20Functionals%20with%20purrr.pdf) [Code]()
 
 ### Day 2
 
-* **Topic 6.** [Relational data with `dplyr`]
-* **Topic 7.** [Statistical Transformations with `ggplot2`]
-* **Topic 8.** [Tibble Maninpulation with `tidyr` and `purrr`]
-* **Topic 9.** [Operations Research Examples]
-* **Topic 10.** [Project work with CRAN datasets]
+* **Topic 6.** [Relational data with `dplyr`]() [Code]()
+* **Topic 7.** [Statistical Transformations with `ggplot2`]() [Code]()
+* **Topic 8.** [Tibble Maninpulation with `tidyr` and `purrr`]() [Code]()
+* **Topic 9.** [Operations Research Examples]() [Code]()
+* **Topic 10.** [Project work with CRAN datasets]() [Code]()
 
 ### Recommended Readings
 The following books are useful resources
