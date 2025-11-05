@@ -9,22 +9,14 @@ Outcomes include:
 * Confidence in using visualisation tools like ggplot2 to present insights clearly
 * Ability to apply R to real-world OR scenarios, such as simulation analysis
 
-
-### Day 1
-
-* **Topic 1.** [Getting started with R]
-* **Topic 2.** [Exploratory Data Analysis with ggplot2]
-* **Topic 3.** [Data Transformation with dplyr]
-* **Topic 4.** [Vectors and Functions]
-* **Topic 5.** [Functionals with purrr]
-
-### Day 2
-
-
-
 ### Required Software
 
-The following software is needed to run the examples:
+The following software is needed to run the examples. It is recommended to setup an account on Posit.cloud
+
+* [Access Posit cloud](https://posit.cloud)
+
+
+Alternatively, you can download R to your own device:
 
 1. R, which can be downloaded from CRAN at https://cran.r-project.org.
 
@@ -33,8 +25,27 @@ The following software is needed to run the examples:
 3. Specific packages from CRAN that are used in the book, and this can be done from within RStudio. Examples of packages are `ggplot2` to support visualization, and `deSolve` to support system dynamics modelling.
 
 
+
+### Day 1
+
+* **Topic 1.** [Introduction to R]
+* **Topic 2.** [Exploratory Data Analysis with `ggplot2`]
+* **Topic 3.** [Transformation Data with `dplyr`]
+* **Topic 4.** [Vectors and Functions]
+* **Topic 5.** [Functionals with `purrr`]
+
+### Day 2
+
+* **Topic 6.** [Relational data with `dplyr`]
+* **Topic 7.** [Statistical Transformations with `ggplot2`]
+* **Topic 8.** [Tibble Maninpulation with `tidyr` and `purrr`]
+* **Topic 9.** [Operations Research Examples]
+* **Topic 10.** [Project work with CRAN datasets]
+
 ### Recommended Readings
 The following books are useful resources
+
+* [*Exploring Operations Research with R*](https://www.routledge.com/Exploring-Operations-Research-with-R/Duggan/p/book/9781032277165) by the instructor, upon which this course is based.
 
 * [*Advanced R*](https://adv-r.hadley.nz) by Hadley Wickham, which presents a deep dive into R, and covers many fascinating technical topics, including object-oriented programming and metaprogramming.
 
