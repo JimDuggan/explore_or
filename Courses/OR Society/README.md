@@ -42,6 +42,13 @@ Alternatively, you can download R to your own device:
 * **Topic 9.** [Operations Research Examples](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/09%20OR%20Examples.pdf) [Code]()
 * **Topic 10.** [Project work with CRAN datasets](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/10%20Project%20Work.pdf) [Code]()
 
+### Project Datasets
+
+* [palmerpenguins](https://cran.r-project.org/web/packages/palmerpenguins/index.html)
+* [aimsir17](https://cran.r-project.org/web/packages/aimsir17/index.html)
+* [nycflights23](https://cran.r-project.org/web/packages/nycflights23/index.html)
+* [ISLR2](https://cran.r-project.org/web/packages/ISLR2/index.html)
+
 ### Recommended Readings
 The following books are useful resources
 
