@@ -28,11 +28,11 @@ Alternatively, you can download R to your own device:
 
 ### Day 1
 
-* **Topic 1.** [Introduction to R]
-* **Topic 2.** [Exploratory Data Analysis with `ggplot2`]
-* **Topic 3.** [Transformation Data with `dplyr`]
-* **Topic 4.** [Vectors and Functions]
-* **Topic 5.** [Functionals with `purrr`]
+* **Topic 1.** [Introduction to R](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/01%20Introduction.pdf)
+* **Topic 2.** [Exploratory Data Analysis with `ggplot2`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/02%20EDA.pdf)
+* **Topic 3.** [Transformation Data with `dplyr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/03%20dplyr.pdf)
+* **Topic 4.** [Vectors and Functions](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/04%20Vectors%20and%20Functions.pdf)
+* **Topic 5.** [Functionals with `purrr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/01%20Day/05%20Functionals%20with%20purrr.pdf)
 
 ### Day 2
 
