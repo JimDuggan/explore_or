@@ -36,8 +36,8 @@ Alternatively, you can download R to your own device:
 
 ### Day 2
 
-* **Topic 6.** [Relational data with `dplyr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/06%20dplyr%20relational%20data.pdf) [Code]()
-* **Topic 7.** [Statistical Transformations with `ggplot2`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/07%20Statistical%20Transformations.pdf) [Code]()
+* **Topic 6.** [Relational data with `dplyr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/06%20dplyr%20relational%20data.pdf) [**Code**](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/code/02%20Day/06%20dplyr%20Rel%20Data/Topic_06.R)
+* **Topic 7.** [Statistical Transformations with `ggplot2`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/07%20Statistical%20Transformations.pdf) [**Code**](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/code/02%20Day/07%20ggplot2/Topic_07.R)
 * **Topic 8.** [Tibble Maninpulation with `tidyr` and `purrr`](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/08%20Tibble%20Manipulation%20with%20purrr%20and%20tidyr.pdf) [**Code**](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/code/02%20Day/08%20Tibble%20Manipulation/Topic_08.R)
 * **Topic 9.** [Operations Research Examples](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/09%20OR%20Examples.pdf) [**Code**](https://github.com/JimDuggan/explore_or/tree/main/Courses/OR%20Society/code/02%20Day/09%20OR%20Examples)
 * **Topic 10.** [Project work with CRAN datasets](https://github.com/JimDuggan/explore_or/blob/main/Courses/OR%20Society/pdfs/02%20Day/10%20Project%20Work.pdf) 
