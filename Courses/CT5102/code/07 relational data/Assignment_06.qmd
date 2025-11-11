@@ -1,0 +1,39 @@
+---
+title: "CT5102 Assignment 6 - Exploratory Data Analysis"
+format: pdf
+editor: visual
+---
+
+## Objective
+
+The aim of this assignment is to use the exploratory data analysis (see below) process on a tibble that you have been allocated. Here are the guidelines:
+
+-   Pose **three questions** to explore as part of your analysis, and then generate insights from the data using the tools of the tidyverse. You may also find the package `lubridate` useful when dealing with processing dates. Any modelling activity can be simple and performed using appropriate functions in `ggplot2`.
+
+-   Try and find a data set that you could link with the tibble and generate insights from this (as part of your three questions).
+
+-   Encode all your analysis in a quarto markdown file, and submit this along with a PDF output.
+
+![](EDA.png){fig-alt="Exploratory Data Analysis." fig-align="center" width="85%"}
+
+## Dataset 1: `nyc_bikes` in the CRAN package `tsibbledata`
+
+```{r}
+#| message: false
+library(dplyr)
+library(tsibbledata)
+
+glimpse(nyc_bikes)
+```
+
+{{< pagebreak >}}
+
+## Dataset 2: `flights` in the CRAN package `nycflights23`
+
+```{r}
+#| message: false
+library(dplyr)
+library(nycflights23)
+
+glimpse(flights)
+```
