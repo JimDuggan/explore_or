@@ -1,3 +1,7 @@
+library(aimsir17)
+library(ggplot2)
+library(dplyr)
+
 # Summarise the energy output by hour (mean of quarterly observations)
 eirgrid17_h <- eirgrid17 %>% 
   group_by(year,month,day,hour) %>% 

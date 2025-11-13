@@ -48,6 +48,7 @@ Alternatively, you can download R to your own device:
 * [aimsir17](https://cran.r-project.org/web/packages/aimsir17/index.html)
 * [nycflights23](https://cran.r-project.org/web/packages/nycflights23/index.html)
 * [ISLR2](https://cran.r-project.org/web/packages/ISLR2/index.html)
+* [crimedatasets](https://cran.r-project.org/web/packages/crimedatasets/index.html)
 
 ### Recommended Readings
 The following books are useful resources
