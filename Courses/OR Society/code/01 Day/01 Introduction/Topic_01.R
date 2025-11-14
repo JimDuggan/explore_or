@@ -4,7 +4,7 @@
 x <- 25
 # Display x
 x
-# Add 21 to x and store the result y
+# Add 25 to x and store the result y
 y <- x + 25
 # Display y
 y
