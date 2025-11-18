@@ -6,7 +6,8 @@ library(ggplot2)
 # Summarise the energy output by hour (mean of quarterly observations)
 eirgrid17_h <- eirgrid17 %>% 
                  group_by(year,month,day,hour) %>% 
-                 summarize(IEWindGenerationH= mean(IEWindGeneration, na.rm=T)) %>% 
+                 summarize(IEWindGenerationH= mean(IEWindGeneration, na.rm=T),
+                           TimeS=first(date)) %>% 
                  ungroup() 
 
 slice(eirgrid17_h,1:4)
@@ -33,15 +34,21 @@ weather_energy <- left_join(eirgrid17_h,
                           hour, 
                           IEWindGenerationH, 
                           station, 
-                          wdsp)
+                          wdsp,
+                          rain)
 
 set.seed(100) 
 obs_sample <- weather_energy %>%
                 filter(station %in% c("MACE HEAD")) %>% 
-                sample_n(300)
+                sample_n(1000)
 obs_sample
 
 ggplot(obs_sample,aes(x=wdsp,y=IEWindGenerationH))+ 
+  geom_point()+ 
+  geom_jitter()+
+  geom_smooth(method="lm")
+
+ggplot(obs_sample,aes(x=rain,y=IEWindGenerationH))+ 
   geom_point()+ 
   geom_jitter()+
   geom_smooth(method="lm")

@@ -96,7 +96,7 @@ ggplot(data=storm,aes(x=date,y=msl,color=station))+
   geom_line() + 
   theme(legend.position = "top", 
         axis.text.x = element_text(angle = 90))+ 
-  scale_x_datetime(date_breaks = "8 hour",
+  scale_x_datetime(date_breaks = "4 hour",
                    date_labels = "%H:%M %a")+
   labs(title="Storm Ophelia",
        subtitle = "Mean Sea Level Pressure",
