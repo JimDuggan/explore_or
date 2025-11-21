@@ -51,6 +51,7 @@ arrival.queue <- function(q,e){
   q 
 }
 
+# See all the methods associated with arrival
 methods("arrival")
 
 
@@ -62,6 +63,7 @@ departure.queue <- function(q){
   q
 }
 
+# See all the methods associated with departure
 methods("departure")
 
 
@@ -95,7 +97,15 @@ q1
 
 
 
+# A final example - check for understanding
+# Think also of R's hierarchy, starts with the global environment
+library(ggplot2)
+mod1 <- lm(cty~displ,data=mpg)
+summary(mod1)
 
+summary.lm <- function(o){
+  cat("Hello World\n")
+}
 
-
+summary(mod1)
 
