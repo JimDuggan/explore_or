@@ -41,7 +41,9 @@ d_data
 cor7 <- d_data %>%
           group_by(station) %>% 
           group_split() %>% 
-          map_df(~{ corr <- cor(.x$MaxWdsp,.x$DailyAverageMSL) 
+          map_df(~{ corr <- cor(.x$MaxWdsp,
+                                .x$DailyAverageMSL) 
+                    browser()
                     tibble(Station=first(.x$station), 
                            CorrCoeff=corr) }) %>% 
           arrange(CorrCoeff) %>% 

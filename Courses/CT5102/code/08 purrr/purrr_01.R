@@ -4,8 +4,14 @@ library(repurrrsive)
 library(ggplot2)
 
 # The map function
-o1 <- purrr::map(c(1,2,3,2),function(x)x^2) 
+o1 <- purrr::map(c(1,2,3,2,1),function(x)x^2) 
+o11 <- lapply(c(1,2,3,2,1),function(x)x^2) 
 str(o1)
+
+test <- map(c(1,2,3),~{
+  browser()
+  .x^2
+})
 
 o2 <- purrr::map(c(1,2,3,2),~.x^2) 
 str(o2)
