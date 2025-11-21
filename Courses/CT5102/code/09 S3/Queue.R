@@ -3,6 +3,8 @@
 # The S3 object that we create is based on the class "queue"
 # We add two new generic functions (arrival and departure) and add methods for these
 
+
+# First, we write the constructor
 queue <- function(name){
   q <- list(name=name,
             contents=c(),
